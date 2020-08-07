@@ -1,0 +1,538 @@
+* {  
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat Alternates', sans-serif;
+  
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 20px;
+ }
+
+ header {
+   width: 100%;
+   max-height: 100px;
+   margin: 80px auto;     
+   
+    }
+
+
+    header img {
+      margin-right: 30px;
+      height: 310px;
+    }
+
+  .header-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+ }
+
+ @media only screen and (min-width: 320px) and (max-width: 768px) {
+  header {
+    padding: 300px;
+  }
+ }
+
+ nav {
+  border-style: solid none solid none;
+  border-width: 1px;
+  padding: 1.5rem;
+  
+   
+ }
+
+ nav a {   
+  text-decoration: none; 
+  color: rgb(139, 0, 0);
+  padding: 1.5rem;
+  font-size: 1.7rem;
+  font-family: 'Shadows Into Light', cursive;
+  
+ }
+
+
+.container {
+  width: 70%;
+  margin: 230px auto; 
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(10, 5vw);
+  grid-gap: 11px;
+                   
+
+  }
+
+  .grid-container > div :hover {
+    opacity: 0.7;
+    transform: scale(0.98);
+  }
+
+
+  .imageps {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.item3 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.item4 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.item1 {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 6;
+}
+
+.item2   {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 6;
+}
+
+.item5 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 6;
+  grid-row-end: 11;
+}
+
+.item6 {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 6;
+  grid-row-end: 11;
+}
+
+.recetas {
+  
+  width:65%;
+  margin: 160px auto;  
+  }
+
+recetas,
+h2, h4 {
+ font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 1.6rem;
+  color: rgb(139, 0, 0);
+ margin: 30px;
+ text-align:  center;
+  }
+
+recetas,
+h4 {
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+
+recetas,
+h1 {
+ margin: -50px;
+ text-align: center;
+ color: rgb(139, 0, 0);
+ 
+}
+
+.receta-container {
+   
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;  
+}
+
+.receta1 {
+  margin: 6px;
+}
+
+.videos {
+    background-color: rgba(255, 99, 71, 0.1);
+    margin: 200px 60px;
+    
+}
+
+.video-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.youtube {
+  margin: 20px 10px;
+  
+   
+}
+
+.videos,
+h3 {
+color: rgb(139, 0, 0);
+font-size: 1.1rem;
+letter-spacing: 2px;
+text-align:  center;
+font-weight: bold;
+}
+
+.videos,
+h4 {
+  color: black;
+  font-weight: bold;
+  font-size: 0.7rem;  
+  padding-bottom: 14px;
+ 
+}
+
+.videos,
+li {
+  list-style-type: none;
+  color: black;
+  font-size: 0.7rem; 
+  padding: 2px;
+  
+} 
+ /* FORMULARIO MODERNO */
+
+ @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+ button {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, input, select, textarea {
+  color: #5A5A5A;
+  font: inherit;
+  margin: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+textarea {
+  overflow: auto;
+}
+
+.instagram-container {
+  max-width: 1400px;
+  margin: 200px auto;
+  background-color: rgba(255, 99, 71, 0.1);
+  background-size: cover;
+
+}
+
+.instagram {
+  display: flex;  
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.fotoinsta {
+  height: 700px;
+  width: 700px;
+}
+
+.instatexto{
+  width: 700px;
+}
+
+.instatexto {
+  text-align: center;
+}
+
+.logoinsta {   
+  display: block;  
+  height: 50px;
+  margin: 80px auto;
+  width: 50px;  
+} 
+
+
+
+#formulario {
+  border: solid 3px #474544;
+  max-width: 768px;
+  margin: 60px auto;
+  position: relative;
+}
+
+form {
+  padding: 37.5px;
+  margin: 50px 0;
+}
+
+#formulario h1 {
+  color: #474544;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 70px;
+}
+
+.underline {
+  border-bottom: solid 2px rgb(139, 0, 0);
+  margin: 4em auto;
+  width: 50px;
+}
+
+.icon_wrapper {
+  margin: 80px auto 0;
+  width: 100%;
+}
+
+.icon {
+  display: block;
+  fill: #474544;
+  height: 50px;
+  margin: 80px auto;
+  width: 50px;
+}
+
+.email {
+	float: right;
+	width: 45%;
+}
+
+input[type='text'], [type='email'], select, textarea {
+	background: none;
+  border: none;
+	border-bottom: solid 2px #474544;
+	color: #474544;
+	font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+	margin: 0em 0 1.875em 0;
+	padding: 0 0 0.875em 0;
+  text-transform: uppercase;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+input[type='text']:focus, [type='email']:focus, textarea:focus {
+	outline: none;
+	padding: 0 0 0.875em 0;
+}
+
+.message {
+	float: none;
+}
+
+.name {
+	float: left;
+	width: 45%;
+}
+
+select {
+  background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-32.png') no-repeat right;
+  outline: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.subject {
+  width: 100%;
+}
+
+.telephone {
+  width: 100%;
+}
+
+textarea {
+	line-height: 150%;
+	height: 150px;
+	resize: none;
+  width: 100%;
+}
+
+::-webkit-input-placeholder {
+	color: #474544;
+}
+
+:-moz-placeholder { 
+	color: #474544;
+	opacity: 1;
+}
+
+::-moz-placeholder {
+	color: #474544;
+	opacity: 1;
+}
+
+:-ms-input-placeholder {
+	color: #474544;
+}
+
+#form_button {
+  background: none;
+  border: solid 2px #474544;
+  color: #474544;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 0.875em;
+  font-weight: bold;
+  outline: none;
+  padding: 20px 35px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+#form_button:hover {
+  background: #474544;
+  color: #F2F3EB;
+}
+
+@media screen and (max-width: 768px) {
+  #container {
+    margin: 20px auto;
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 26px;
+  }
+  
+  .underline {
+    width: 68px;
+    color: rgb(139, 0, 0);
+  }
+  
+  #form_button {
+    padding: 15px 25px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  h1 {
+    font-size: 18px;
+  }
+  
+  .icon {
+    height: 35px;
+    width: 35px;
+  }
+  
+  .underline {
+    width: 53px;
+  }
+  
+  input[type='text'], [type='email'], select, textarea {
+    font-size: 0.875em;
+  }
+}
+
+footer {
+  margin-top: 150px;
+  background-color:  rgba(255, 99, 71, 0.1);
+  width: 100%;
+  height: 60px;    
+  border-top: 1px solid  rgb(139, 0, 0);
+ }
+
+ footer h5 {
+  line-height: 60px;
+  letter-spacing: 3px;
+  text-align: center;
+  font-size: 0.85rem;
+ }
+    
+
+/* Grow */
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  transform: scale(1.1);
+}
+
+/* Pulse Grow */
+@-webkit-keyframes hvr-pulse-grow {
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+@keyframes hvr-pulse-grow {
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+.hvr-pulse-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-pulse-grow:hover, .hvr-pulse-grow:focus, .hvr-pulse-grow:active {
+  -webkit-animation-name: hvr-pulse-grow;
+  animation-name: hvr-pulse-grow;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
+
+

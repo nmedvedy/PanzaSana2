@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Panza sana</title>
+  <link href="index.css" type="text/css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">  
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200&display=swap" rel="stylesheet">
+  <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">  
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+
+<!-- Header -->
+
+  <header class="header-container"> 
+   <img src= "Resources/logo.jpeg"/ class="hvr-pulse-grow">
+    <nav>
+      <span class="hvr-grow"><a href="#home">Home</a></span>
+      <span class="hvr-grow"><a href="#recetas">Recetas</a></span>
+      <span class="hvr-grow"><a href="#insta">Instagram</a></span>
+      <span class="hvr-grow"><a href="#formulario">Enviá tu receta</a></span>
+    </nav>
+  </header>
+
+<!-- Main Content Container -->
+
+<div class="main">
+
+ <!-- Home Section -->
+
+ <div class="container" id="home">
+<div class="grid-container">
+  <figure class="item1">
+    <img src="Resources/burger.jpg" class="imageps hvr-grow" alt="Image 1">
+  </figure>
+  <figure class="item2">
+    <img src="Resources/fish.jpg" class="imageps hvr-grow" alt="Image 2">
+  </figure>
+  <figure class="item3">
+    <img src="Resources/lettuce.jpg" class="imageps hvr-grow" alt="Image 3">
+  </figure>
+  <figure class="item4">
+    <img src="Resources/cooking.jpg" class="imageps hvr-grow" alt="Image 4">
+  </figure>
+  <figure class="item5">
+    <img src="Resources/salad.jpg" class="imageps hvr-grow" alt="Image 5">
+  </figure>
+  <figure class="item6">
+    <img src="Resources/soup.jpg" class="imageps hvr-grow" alt="Image 6">
+  </figure>
+
+  </div>
+</div>
+
+<!-- Recetas -->
+
+<div class="recetas" id="recetas">
+  <h2>Nuestras Recetas</h2>
+  
+  <div class="receta-container">
+    
+    <figure class="receta1">
+      <img src="Resources/receta1.jpg" class="imageps">
+    </figure>
+    <figure class="receta1">
+      <img src="Resources/receta2.jpg" class="imageps">
+    </figure>
+    <figure class="receta1">
+      <img src="Resources/receta3.jpg" class="imageps">
+    </figure>    
+  </div>
+
+  <h4>¡mirá nuestras recetas!</h4>
+  <h1>___</h1>
+</div>
+
+<div class="videos">
+  <h2>Videos de Recetas</h2>
+
+  <div class="video-container">
+    <figure class="video">      
+      <iframe class="youtube" width="480" height="315" src="https://www.youtube.com/embed/FTPBYWq_SZ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   
+      <h3>Tacos al pastor</h3>
+      <h4>Ingredientes</h4>
+      <ul>
+        <li>Carne de Pollo</li>
+        <li>1 chile de ancho</li>
+        <li>1 chile guajilli</li>
+        <li>1 cebolla</li>
+        <li>1 diente de ajo</li>    
+      </ul>
+   </figure>
+
+    <figure class="video">
+      <iframe class="youtube" width="480" height="315" src="https://www.youtube.com/embed/eG3vS9dDeoc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <h3>Pechuga de pollo rellena</h3>
+      <h4>Ingredientes</h4> 
+      <ul>
+        <li>4 pizcas pollo en filete</li>
+        <li>1 pizca cebolla en julianas</li>
+        <li>1 pizca pimiento rojo en julianas</li>
+        <li>1 taza champiñón en rebanadas</li>
+        <li>1 diente ajo finamente picado</li>
+        <li>1 pizca sal</li>
+      </ul>
+
+    </figure>
+
+    <figure class="video">
+      <iframe class="youtube" width="480" height="315" src="https://www.youtube.com/embed/xVyMN7do-2E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <h3>Panqueque de Banana y avena</h3>
+      <h4>Ingredientes</h4>
+      <ul>
+        <li>1 banana madura</li>
+        <li>2 huevos</li>
+        <li>40 gramos de copo de avena</li>
+        <li>Aceite</li>
+      </ul>
+      
+    </figure>
+  </div>
+
+</div>
+
+<div class="instagram-container" id="insta">
+
+  <div class="instagram">
+
+  <div class="instatexto">
+    <h2>Seguinos por Instagram</h2>
+    <p><strong>Follow</strong> y sumate a nuestros seguidores para no  perderte<br>nuestras recetas semanales, y participar de increíbles premios!</p>
+    <h4><strong>Click</strong> en el logo para seguirnos!</h4>
+    <a href="https://www.instagram.com/holapanzasana/">
+      <img class="logoinsta hvr-pulse-grow" src="Resources/instagram.svg"></a>
+      <div class="underline">   </div>
+  </div> 
+
+  <div class="instafoto">
+    <img class="fotoinsta" src="Resources/insta1.png">
+  </div>
+  </div>
+
+</div>
+
+<div id="formulario">
+  <h1>&bull; Envianos tu receta &bull;</h1>
+  <div class="underline">
+  </div>
+  <div class="icon_wrapper">
+    <img class="icon" src="Resources/recipe.svg">    
+  </div>
+  <form action="#" method="post" id="contact_form">
+    <div class="name">
+      <label for="name"></label>
+      <input type="text" placeholder="Nombre" name="name" id="name_input" required>
+    </div>
+    <div class="email">
+      <label for="email"></label>
+      <input type="email" placeholder="e-mail" name="email" id="email_input" required>
+    </div>
+    <div class="telephone">
+      <label for="name"></label>
+      <input type="text" placeholder="Receta" name="telephone" id="telephone_input" required>
+    </div>
+    <div class="subject">
+      <label for="subject"></label>
+      <select placeholder="Tipo de Receta" name="subject" id="subject_input" required>
+        <option disabled hidden selected>Tipos de Receta</option>
+        <option>Platos</option>
+        <option>Postre</option>
+        <option>Bebidas</option>
+      </select>
+    </div>
+    <div class="message">
+      <label for="message"></label>
+      <textarea name="message" placeholder="Ingredientes" id="message_input" cols="30" rows="5" required></textarea>
+    </div>
+    <div class="submit">
+      <input type="submit" value="Enviar" id="form_button" />
+    </div>
+  </form><!-- // End form -->
+</div>
+
+<footer>
+    <h5>© Panza Sana | Cocina Saludable | Buenos Aires - Argentina</h5>
+</footer> 
+
+<script src="scrollReveal.js"></script>
+</body>
+</html>
